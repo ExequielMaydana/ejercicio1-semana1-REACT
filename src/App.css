@@ -1,0 +1,51 @@
+.App {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-quotes{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #c5c5c5;
+  box-shadow: 3px 3px 3px #3f3f3f;
+  border-radius: 5px;
+}
+
+.quote{
+  text-align: center;
+}
+
+.container-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.author {
+  margin: 0 5px 0 0;
+}
+
+.quote-btn{
+  display: flex;
+  justify-content: center;
+
+  width: 8%;
+  margin: 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.quote-btn i {
+  font-size: 1.4rem;
+  padding: 10px 15px;
+}
+
